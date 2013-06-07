@@ -51,11 +51,10 @@ a:hover {
   margin-bottom: 5px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01); }
   .event-box ul li {
-    padding: 5px 20px 26px 20px;
-    background-color: rgba(0, 0, 0, 0.01);
+    overflow: hidden;
+    padding: 0 20px 30px 20px;
     background-color: #f9f9f9;
     border-bottom: 1px solid #eee;
-    overflow: visible;
     box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.8); }
   .event-box ul li:first-child {
     border-radius: 2px 2px 0 0; }
@@ -63,11 +62,11 @@ a:hover {
     border-bottom: none;
     border-radius: 0 0 2px 2px; }
 .event-box h3 {
-  padding-bottom: 10px;
   border-bottom: 1px solid #f1f1f1;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
   text-shadow: 0 1px 1px white;
-  overflow: visible; }
+  overflow: visible;
+  line-height: 32px; }
   .event-box h3 span {
     display: inline-block; }
   .event-box h3 a {
