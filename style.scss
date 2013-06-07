@@ -93,6 +93,7 @@ a:hover {
     border-bottom: 1px solid lighten(#eee,1%);
     box-shadow: 0 1px 0 rgba(255,255,255,.9);
     text-shadow: 0 1px 1px rgba(255,255,255,1);
+    overflow: visible;
     
     span {
       display: inline-block;
