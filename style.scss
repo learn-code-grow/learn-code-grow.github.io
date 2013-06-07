@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Pictos-Font';
   src:
-      url('fonts/pictos-web.eot') format('eot') 
+      url('fonts/pictos-web.eot') format('eot'), 
       url('fonts/pictos-web.woff') format('woff'),
       url('fonts/pictos-web.ttf') format('truetype'),
       url('fonts/pictos-web.svg#webfontphKv1xv9') format('svg');
@@ -138,11 +138,6 @@ h3 {
   }
 }
 
-.title, .type, .date, .venue, .city, .price {
-
-
-}
-
 .title {
   width: 190px;
   max-width: 190px;
@@ -154,13 +149,13 @@ h3 {
 }
 
 .date {
-  width: 192px;
-  max-width: 192px;
+  width: 200px;
+  max-width: 200px;
 }
 
 .venue {
-  width: 160px;
-  max-width: 160px;
+  width: 150px;
+  max-width: 150px;
 }
 
 .city {
