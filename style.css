@@ -401,7 +401,6 @@ a:hover {
   border-bottom: 1px solid #f1f1f1;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
   text-shadow: 0 1px 1px white;
-  overflow: visible;
   line-height: 32px; }
   .event-box h3 span {
     display: inline-block; }
