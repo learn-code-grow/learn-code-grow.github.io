@@ -116,12 +116,12 @@ h3 {
   font-family: 'Pictos';
   color: lighten(#AAA5B0,5%);
   font-size: 23px;
-  width: 23px;
-  height: 23px;
   font-weight: normal;
   font-style: normal;
   text-shadow: 0 1px 1px rgba(255,255,255,1);
   margin-right: 8px;
+  line-height: 0;
+  vertical-align: middle;
 }
 
 .organizer {
