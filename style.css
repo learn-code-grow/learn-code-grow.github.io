@@ -99,7 +99,8 @@ h3 {
 .title, .type, .date, .venue, .city, .price {
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; }
+  text-overflow: ellipsis;
+  height: 32px; }
 
 .title {
   width: 200px;
