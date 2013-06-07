@@ -1,0 +1,193 @@
+@font-face {
+  font-family: 'Pictos';
+  src: url('../fonts/pictos-web.woff') format('woff'),
+       url('../fonts/pictos-web.ttf') format('truetype'),
+       url('../fonts/pictos-web.svg#webfontphKv1xv9') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 13px/1 Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #4C4C4C;
+}
+
+a {
+  color: darken(#2197C6,10%);
+  text-decoration: none;
+    color: #7167C4;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#top {
+  height: 680px;
+  width: 1024px;
+  margin: -50px auto 0 auto;
+  background-image: -webkit-linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1) 100%),
+                    -webkit-radial-gradient(circle, rgba(255,255,255,.19), rgba(255,255,255,1) 84%), 
+                    url('file:///Users/nrrrdcore/Desktop/pp_3_7.jpg');
+}
+
+.top-copy {
+  position: absolute;
+  top: 396px;
+  right: 300px;
+
+  h1, h2 {
+    padding: 0;
+    margin: 0;
+    color: #4C4C4C;
+    text-shadow: 0 1px 1px rgba(255,255,255,.5);
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+}
+
+#bottom {
+  width: 1024px;
+  margin: 0 auto;
+  margin: -70px auto 0 auto;
+}
+
+.event-box {
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid darken(#eee,1%);
+    border-radius: 2px;
+    margin-bottom: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.01);
+
+
+    li {
+      padding: 5px 20px 26px 20px;
+      background-color: rgba(0,0,0,.01);
+      background-color: darken(#FCFCFC,1%);
+      border-bottom: 1px solid #eee;
+      box-shadow: inset 0 1px 1px rgba(255,255,255,.8);
+    }
+
+    li:first-child {
+      border-radius: 2px 2px 0 0;
+    }
+
+    li:last-child {
+      border-bottom: none;
+      border-radius: 0 0 2px 2px;
+    }
+  }
+
+  h3 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid lighten(#eee,1%);
+    box-shadow: 0 1px 0 rgba(255,255,255,.9);
+    text-shadow: 0 1px 1px rgba(255,255,255,1);
+    
+    span {
+      display: inline-block;
+    }
+
+    a {
+      color: #4C4C4C;
+    }
+  }
+}
+
+.pictos {
+  font-family: 'Pictos';
+  color: lighten(#AAA5B0,5%);
+  font-size: 23px;
+  font-weight: normal;
+  font-style: normal;
+  text-shadow: 0 1px 1px rgba(255,255,255,1);
+  margin-right: 8px;
+}
+
+.organizer {
+  float: right;
+  color: #999;
+
+  a {
+    color: #7167C4;
+  }
+}
+
+.title, .type, .date, .venue, .city, .price {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title {
+  width: 200px;
+  max-width: 200px;
+}
+
+.type {
+  width: 150px;
+  max-width: 150px;
+}
+
+.date {
+  width: 190px;
+  max-width: 190px;
+}
+
+.venue {
+  width: 160px;
+  max-width: 160px;
+}
+
+.city {
+  width: 160px;
+  max-width: 160px;
+}
+
+.price {
+  float: right;
+}
+
+.tags {
+  span {
+    background-color: rgba(0,0,0,.06);
+    padding: 3px 6px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    box-shadow: inset 0 1px 1px rgba(255,255,255,.6);
+    font-weight: 500;
+    text-shadow: 0 1px 1px rgba(255,255,255,1);
+  }
+}
+
+footer {
+  clear: both;
+  overflow: hidden;
+  padding: 30px 0;
+  width: 100%;
+  margin-top: 80px;
+
+  .container {
+    width: 1024px; 
+    margin: 0 auto;
+  }
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
