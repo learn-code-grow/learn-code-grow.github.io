@@ -75,6 +75,7 @@ h3 {
   line-height: 32px; }
   .event-box h3 span {
     display: inline-block;
+    height: 32px;
     line-height: 32px; }
   .event-box h3 a {
     color: #4C4C4C; }
