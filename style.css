@@ -57,7 +57,7 @@ h3 {
   .event-box ul li {
     clear: both;
     overflow: hidden;
-    padding: 12px 20px 30px 20px;
+    padding: 15px 20px 30px 20px;
     background-color: #f9f9f9;
     border-bottom: 1px solid #eee;
     box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.8); }
@@ -99,20 +99,19 @@ h3 {
 .title, .type, .date, .venue, .city, .price {
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
-  vertical-align: top; }
+  text-overflow: ellipsis; }
 
 .title {
-  width: 200px;
-  max-width: 200px; }
+  width: 190px;
+  max-width: 190px; }
 
 .type {
   width: 150px;
   max-width: 150px; }
 
 .date {
-  width: 190px;
-  max-width: 190px; }
+  width: 192px;
+  max-width: 192px; }
 
 .venue {
   width: 160px;
