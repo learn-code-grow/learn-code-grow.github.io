@@ -75,9 +75,7 @@ h3 {
   text-shadow: 0 1px 1px white;
   line-height: 32px; }
   .event-box h3 span {
-    display: inline-block;
-    height: 32px;
-    line-height: 32px; }
+    display: inline-block; }
   .event-box h3 a {
     color: #4C4C4C; }
 
@@ -85,7 +83,8 @@ h3 {
   font-family: 'Pictos';
   color: #b7b3bc;
   font-size: 23px;
-  line-height: 23px;
+  width: 23px;
+  height: 23px;
   font-weight: normal;
   font-style: normal;
   text-shadow: 0 1px 1px white;
