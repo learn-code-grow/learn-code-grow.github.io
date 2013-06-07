@@ -78,10 +78,10 @@ h3 {
   .event-box h3 a {
     color: #4C4C4C; }
 
-span.pictos {
+.pictos {
   font-family: 'Pictos';
   color: #b7b3bc;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: normal;
   font-style: normal;
   display: inline-block;
@@ -91,7 +91,7 @@ span.pictos {
   height: 20px;
   float: left;
   display: block;
-  margin-top: -3px; }
+  margin-top: -14px; }
 
 .organizer {
   float: right;
